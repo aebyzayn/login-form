@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background: rgb(255, 164, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* ...............Start Login Form..................... */
+.Login-Form{
+    background: transparent;
+    width: 420px;
+    color: #ffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    border: 2px solid rgba(225, 225, 225, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+form h2{
+    text-align: center;
+    font-size: 40px;
+    line-height: 130%;
+}
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(225, 225, 225, .2);
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    color: #ffff;
+    font-size: 16px;
+}
+.input-box input::placeholder{
+    color: #ffff;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.save-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: .9rem;
+    margin: -15px 0 15px;
+    align-items: center;
+}
+.save-forget label{
+    display: flex;
+    gap: .3rem;
+    align-items: center;
+}
+.save-forget label input{
+    accent-color: #fff;
+}
+.save-forget a{
+    color: #fff;
+}
+.save-forget a:hover{
+    text-decoration: underline;
+}
+form button{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+}
+.registar-link{
+    text-align: center;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: .9rem;
+    margin: 20px 0 15px;
+}
+.registar-link a{
+    color: #fff;
+    font-weight: 600;
+}
+.registar-link a:hover{
+    text-decoration: underline;
+}
+/* ...............End Login Form..................... */
